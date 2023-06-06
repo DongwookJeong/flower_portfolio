@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import key from "./key";
+import WholeArea from "./components/Nationwide";
 const App = () => {
   const [data, setData] = useState(null);
   const onClick = async () => {
@@ -20,6 +21,7 @@ const App = () => {
         <button onClick={onClick}>api 첫 발</button>
       </div>
       {data && <textarea rows={7} value={JSON.stringify(data, null, 2)} />}
+      <WholeArea />
     </div>
   );
 };
