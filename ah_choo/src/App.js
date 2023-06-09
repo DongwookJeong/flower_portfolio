@@ -7,7 +7,7 @@ const App = () => {
   const onClick = async () => {
     try {
       const res = await axios.get(
-        `https://apis.data.go.kr/1360000/HealthWthrIdxServiceV3/getPinePollenRiskIdxV3?serviceKey=${key}&numOfRows=10&pageNo=1&dataType=JSON&areaNo=3611054000&time=2023060518' \
+        `https://apis.data.go.kr/1360000/HealthWthrIdxServiceV3/getPinePollenRiskIdxV3?serviceKey=${key}&numOfRows=10&pageNo=1&dataType=JSON&areaNo=3611054000&time=2023060918' \
         -H 'accept: application/json'`
       );
       setData(res.data);
