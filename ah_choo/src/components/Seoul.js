@@ -7,6 +7,7 @@ const SeoulArea = styled.img`
   position: absolute;
   top: 17.5vh;
   left: 43.2vw;
+  z-index: 3;
 `;
 
 const Seoul = () => {

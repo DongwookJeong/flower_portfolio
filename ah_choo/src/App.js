@@ -3,6 +3,8 @@ import axios from "axios";
 import key from "./key";
 import WholeArea from "./components/Nationwide";
 import SeoulArea from "./components/Seoul";
+import GyeonggiArea from "./components/Gyeonggi";
+import IncheonArea from "./components/Incheon";
 import styled from "styled-components";
 const AppStyle = styled.div`
   width: 100vw;
@@ -32,6 +34,8 @@ const App = () => {
 
       <WholeArea />
       <SeoulArea />
+      <GyeonggiArea />
+      <IncheonArea />
     </AppStyle>
   );
 };
