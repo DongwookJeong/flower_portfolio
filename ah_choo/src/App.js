@@ -1,11 +1,13 @@
 import { useState } from "react";
 import axios from "axios";
 import key from "./key";
+import styled from "styled-components";
+
 import WholeArea from "./components/Nationwide";
 import SeoulArea from "./components/Seoul";
 import GyeonggiArea from "./components/Gyeonggi";
 import IncheonArea from "./components/Incheon";
-import styled from "styled-components";
+import GangwonArea from "./components/Gangwon";
 const AppStyle = styled.div`
   width: 100vw;
 
@@ -36,6 +38,7 @@ const App = () => {
       <SeoulArea />
       <GyeonggiArea />
       <IncheonArea />
+      <GangwonArea />
     </AppStyle>
   );
 };
