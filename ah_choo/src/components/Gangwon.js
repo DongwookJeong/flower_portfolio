@@ -2,10 +2,10 @@ import styled from "styled-components";
 import gangwon from "../image/gangwon_orange.png";
 
 const GangwonArea = styled.img`
-  width: 14.5vw;
+  width: 14.6vw;
 
   position: absolute;
-  top: 3.12vh;
+  top: 3.1vh;
   left: 45.41vw;
   z-index: 2;
 `;
