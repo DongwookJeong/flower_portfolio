@@ -5,8 +5,8 @@ const JeonbukArea = styled.img`
   width: 9.8vw;
 
   position: absolute;
-  top: 43.5vh;
-  left: 40.95vw;
+  top: 40vh;
+  left: 41vw;
 `;
 
 const Jeonbuk = () => {

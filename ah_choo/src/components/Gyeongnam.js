@@ -5,7 +5,7 @@ const GyeongnamArea = styled.img`
   width: 10.8vw;
 
   position: absolute;
-  top: 47.5vh;
+  top: 43.8vh;
   left: 48.5vw;
 `;
 

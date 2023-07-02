@@ -5,7 +5,7 @@ const IncheonArea = styled.img`
   width: 1.8vw;
 
   position: absolute;
-  top: 18.4vh;
+  top: 16.4vh;
   left: 41.6vw;
   z-index: 2;
 `;

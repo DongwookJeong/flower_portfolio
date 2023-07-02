@@ -5,7 +5,7 @@ const ChungnamArea = styled.img`
   width: 10vw;
 
   position: absolute;
-  top: 28.8vh;
+  top: 26vh;
   left: 39vw;
 `;
 

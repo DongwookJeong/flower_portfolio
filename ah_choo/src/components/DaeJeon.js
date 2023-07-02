@@ -5,7 +5,7 @@ const DaejeonArea = styled.img`
   width: 2.1vw;
 
   position: absolute;
-  top: 37.88vh;
+  top: 34.8vh;
   left: 46.38vw;
 `;
 

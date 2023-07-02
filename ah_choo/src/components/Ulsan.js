@@ -5,8 +5,8 @@ const UlsanArea = styled.img`
   width: 3.2vw;
 
   position: absolute;
-  top: 50.4vh;
-  left: 57.58vw;
+  top: 46.6vh;
+  left: 57.65vw;
 `;
 
 const Ulsan = () => {

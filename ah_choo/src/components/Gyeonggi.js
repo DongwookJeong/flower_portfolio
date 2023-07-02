@@ -5,7 +5,7 @@ const GyeonggiArea = styled.img`
   width: 8.7vw;
 
   position: absolute;
-  top: 8.385vh;
+  top: 6.4vh;
   left: 41.6vw;
 `;
 

@@ -5,7 +5,7 @@ const GwangjuArea = styled.img`
   width: 2.4vw;
 
   position: absolute;
-  top: 57vh;
+  top: 53vh;
   left: 42.6vw;
 `;
 

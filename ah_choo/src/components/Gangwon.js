@@ -5,7 +5,7 @@ const GangwonArea = styled.img`
   width: 14.6vw;
 
   position: absolute;
-  top: 3.1vh;
+  top: 1.4vh;
   left: 45.41vw;
   z-index: 2;
 `;

@@ -2,11 +2,11 @@ import styled from "styled-components";
 import gyeongbuk from "../image/gyeongbuk_green.png";
 
 const GyeongbukArea = styled.img`
-  width: 11.5vw;
+  width: 11.7vw;
 
   position: absolute;
-  top: 27.25vh;
-  left: 49.95vw;
+  top: 24.3vh;
+  left: 49.9vw;
 `;
 
 const Gyeongbuk = () => {

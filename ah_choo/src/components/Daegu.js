@@ -2,11 +2,11 @@ import styled from "styled-components";
 import daegu from "../image/daegu_red.png";
 
 const DaeguArea = styled.img`
-  width: 2.7vw;
+  width: 2.65vw;
 
   position: absolute;
-  top: 45.7vh;
-  left: 53.5vw;
+  top: 42.3vh;
+  left: 53.55vw;
 `;
 
 const Daegu = () => {

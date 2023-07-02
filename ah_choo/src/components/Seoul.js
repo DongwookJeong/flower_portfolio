@@ -5,7 +5,7 @@ const SeoulArea = styled.img`
   width: 2.7vw;
 
   position: absolute;
-  top: 17.5vh;
+  top: 15.5vh;
   left: 43.2vw;
   z-index: 3;
 `;

@@ -5,7 +5,7 @@ const JejuArea = styled.img`
   width: 5.1vw;
 
   position: absolute;
-  top: 86.2vh;
+  top: 80.7vh;
   left: 39.2vw;
 `;
 

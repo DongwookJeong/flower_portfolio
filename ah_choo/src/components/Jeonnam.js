@@ -5,8 +5,8 @@ const JeonnamArea = styled.img`
   width: 10.7vw;
 
   position: absolute;
-  top: 54.7vh;
-  left: 39.2vw;
+  top: 50.5vh;
+  left: 39.25vw;
 `;
 
 const Jeonnam = () => {

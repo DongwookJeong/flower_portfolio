@@ -5,7 +5,7 @@ const SejongArea = styled.img`
   width: 1.7vw;
 
   position: absolute;
-  top: 33.88vh;
+  top: 31vh;
   left: 45.7vw;
 `;
 

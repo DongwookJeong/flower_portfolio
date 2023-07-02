@@ -2,10 +2,10 @@ import styled from "styled-components";
 import busan from "../image/busan_red.png";
 
 const BusanArea = styled.img`
-  width: 3.2vw;
+  width: 3.25vw;
 
   position: absolute;
-  top: 56vh;
+  top: 51.9vh;
   left: 56.58vw;
 `;
 

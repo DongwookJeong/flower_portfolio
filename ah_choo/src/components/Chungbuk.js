@@ -5,8 +5,8 @@ const ChungbukArea = styled.img`
   width: 8.7vw;
 
   position: absolute;
-  top: 25.75vh;
-  left: 46.65vw;
+  top: 23vh;
+  left: 46.63vw;
 `;
 
 const Chungbuk = () => {
