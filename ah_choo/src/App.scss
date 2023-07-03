@@ -1,0 +1,77 @@
+@mixin position-set($top, $left, $zIndex, $width) {
+  position: absolute;
+
+  top: $top;
+  left: $left;
+  z-index: $zIndex;
+
+  width: $width;
+}
+
+.seoul {
+  @include position-set(15.5vh, 43.2vw, 3, 2.7vw);
+}
+
+.gyeonggi {
+  @include position-set(6.4vh, 41.6vw, 1, 8.7vw);
+}
+
+.incheon {
+  @include position-set(16.4vh, 41.6vw, 2, 1.8vw);
+}
+
+.gangwon {
+  @include position-set(1.4vh, 45.41vw, 2, 14.6vw);
+}
+
+.chungnam {
+  @include position-set(26vh, 39vw, 1, 10vw);
+}
+
+.chungbuk {
+  @include position-set(23vh, 46.63vw, 1, 8.7vw);
+}
+
+.sejong {
+  @include position-set(31vh, 45.7vw, 1, 1.7vw);
+}
+
+.daejeon {
+  @include position-set(34.8vh, 46.38vw, 1, 2.1vw);
+}
+
+.gyeongbuk {
+  @include position-set(24.3vh, 49.9vw, 1, 11.7vw);
+}
+
+.gyeongnam {
+  @include position-set(43.8vh, 48.5vw, 1, 10.8vw);
+}
+
+.ulsan {
+  @include position-set(46.6vh, 57.65vw, 1, 3.2vw);
+}
+
+.busan {
+  @include position-set(51.9vh, 56.58vw, 1, 3.25vw);
+}
+
+.jeonbuk {
+  @include position-set(40vh, 41vw, 1, 9.8vw);
+}
+
+.jeonnam {
+  @include position-set(50.5vh, 39.25vw, 1, 10.7vw);
+}
+
+.jeju {
+  @include position-set(80.7vh, 39.2vw, 1, 5.1vw);
+}
+
+.gwangju {
+  @include position-set(53vh, 42.6vw, 2, 2.4vw);
+}
+
+.daegu {
+  @include position-set(42.3vh, 53.55vw, 2, 2.65vw);
+}
