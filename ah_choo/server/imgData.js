@@ -1,12 +1,4 @@
-const express = require("express");
-const app = express();
-const cors = require("cors");
-/*
-! export 시도, error
-const imgData = require("./imgData.js");
-*/
-
-// ! 추후 따로 뺄 예정
+// ! 라우터를 써야 하나... 잠시 대기
 const imgData = [
   {
     // 서울
@@ -145,28 +137,3 @@ const imgData = [
     green: "server/image/jeju_green.png",
   },
 ];
-
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-// * 이미지 파일 경로 불러 오기
-app.get("/api/mapimage", (req, res) => {
-  res.json(imgData);
-});
-
-// * 이미지 파일 경로 보내기
-app.post("api/mapimage", (req, res) => {
-  const { id, red, orange, yellow, green } = req.body;
-  imgData.push({
-    id,
-    red,
-    orange,
-    yellow,
-    green,
-  });
-  return res.send("success");
-});
-app.listen(4010, () => {
-  console.log("server start!");
-});
